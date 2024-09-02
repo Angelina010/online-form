@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgb(242, 242, 242);
+}
+
+img {
+    width: 100%
+}
+
+.input-fields{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 16px 8px;
+}
+
+label{
+    display: block;
+}
+
+.form-section{
+    background-color: white;
+    padding: 16px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 48px;
+}
+
+button{
+    background-color: rgb(13, 136, 13);
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.log-in{
+    color:rgb(13, 136, 13);
+}
+
+.account{
+    margin-left: 32px;
+}
+
+h1{
+    margin: 128px 84px 32px 24px;
+}
+
+input:invalid {
+    border-color: rgb(230, 27, 27);
+}
+
+input {
+    border-radius: 4px;
+}
